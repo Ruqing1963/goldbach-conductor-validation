@@ -1,0 +1,17 @@
+# Magma Conductor Output for Goldbach-Frey Curves
+# Computed via: Conductor(HyperellipticCurve(x*(x^2-p^2)*(x^2-q^2)))
+# All runs emit: WARNING: Using Ogg's formula when v_2(D)>=12
+# The r=2 exponent is approximate; all odd exponents are reliable.
+#
+# Format: p, q, 2N, |p-q|, conductor, factorization
+
+   3,    7,   10,    4,      2822400,  2^8 * 3^2 * 5^2 * 7^2
+   7,   23,   30,   16,     93315600,  2^4 * 3^2 * 5^2 * 7^2 * 23^2
+  11,   19,   30,    8,          ---,  2^7 * 3^2 * 5^2 * 11^2 * 19^2
+  13,   17,   30,    4,          ---,  2^8 * 3^2 * 5^2 * 13^2 * 17^2
+   3,   17,   20,   14,          ---,  2^8 * 3^2 * 5^2 * 7^2 * 17^2
+   7,   19,   26,   12,          ---,  2^8 * 3^2 * 7^2 * 13^2 * 19^2
+   3,   37,   40,   34,          ---,  2^7 * 3^2 * 5^2 * 17^2 * 37^2
+   7,   41,   48,   34,          ---,  2^4 * 3^2 * 7^2 * 17^2 * 41^2
+   7,   53,   60,   46,          ---,  2^8 * 3^2 * 5^2 * 7^2 * 23^2 * 53^2
+  11,   37,   48,   26,          ---,  2^4 * 3^2 * 11^2 * 13^2 * 37^2

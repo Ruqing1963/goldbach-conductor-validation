@@ -1,0 +1,39 @@
+# SageMath Point-Counting Data for Goldbach-Frey Curves
+# Manual affine point count on y^2 = x(x^2-p^2)(x^2-q^2) over F_r
+# Used to cross-validate Magma conductor output
+#
+# Format: p, q, r, #aff(Fr), #aff(Fr2), singularity_type
+
+# Case (7, 23), 2N=30
+7, 23,  3,  3,   7, 2N+0C  (Node)
+7, 23,  5,  7,  23, 2N+0C  (Node)
+7, 23,  7,  7,  63, 0N+1C  (Cusp)
+7, 23, 23, 23, 575, 0N+1C  (Cusp)
+
+# Case (3, 7), 2N=10
+3,  7,  3,  3,  15, 0N+1C  (Cusp)
+3,  7,  5,  7,  23, 2N+0C  (Node)
+3,  7,  7,  7,  63, 0N+1C  (Cusp)
+
+# Case (3, 125), 2N=128
+3, 125,  3,  3,  15, 0N+1C  (Cusp)
+3, 125,  5,  3,  31, 0N+1C  (Cusp)
+3, 125, 61, 59, 3719, 2N+0C  (Node)
+
+# Case (3, 17), 2N=20
+3, 17,  3,  3,  15, 0N+1C  (Cusp)
+3, 17,  5,  7,  23, 2N+0C  (Node)
+3, 17,  7,  7,  47, 2N+0C  (Node)
+3, 17, 17, 19, 319, 0N+1C  (Cusp)
+
+# Case (7, 19), 2N=26
+7, 19,  3,  3,   7, 2N+0C  (Node)
+7, 19,  7,  7,  63, 0N+1C  (Cusp)
+7, 19, 13, 15, 167, 2N+0C  (Node)
+7, 19, 19, 19, 399, 0N+1C  (Cusp)
+
+# Case (7, 41), 2N=48
+7, 41,  3,  3,   7, 2N+0C  (Node)
+7, 41,  7,  7,  63, 0N+1C  (Cusp)
+7, 41, 17, 19, 287, 2N+0C  (Node)
+7, 41, 41, 51, 1663, 0N+1C (Cusp)
